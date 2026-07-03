@@ -35,6 +35,8 @@
 /spmfw			emmc		/dev/block/by-name/spmfw										flags=display=spmfw;slotselect
 /tee_a			emmc		/dev/block/by-name/tee_a										flags=display="TEE Slot A";backup
 /tee_b			emmc		/dev/block/by-name/tee_b										flags=display="TEE Slot B";backup
+/lk_a			emmc		/dev/block/by-name/lk_a											flags=display="LK A";slotselect;backup;flashimg
+/lk_b			emmc		/dev/block/by-name/lk_b											flags=display="LK B";slotselect;backup;flashimg
 
 # Removable Storage
 /external_sd		auto		/dev/block/mmcblk1p1				/dev/block/mmcblk0p1					flags=display="Micro SD Card";storage;wipeingui;removable;backup=0
